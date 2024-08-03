@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    {% block navbar %}
+    {% include '_navigation.html'   %}
+    {% endblock %}
     <table border="1" width="50%" cellpadding="5">
         <tr>
             <th>Назва піци</th>
