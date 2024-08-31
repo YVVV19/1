@@ -11,19 +11,19 @@
 <body>
     {% block navbar %}
     {% include '_navigation.html'   %}
-    {% endblock %}
+    {% endblock navbar %}
     <h1>Доброго дня. Вас вітає піцерія Oderman</h1>
     <p><img src="pizeria.jpg" width="300" length="150"></p>
     <p><img src="pizeria2.jpg" width="300" length="150"></p>
     <div class="container">
         {% block main %}
             
-        {% endblock %}
+        {% endblock main %}
     </div>
 
     {% block footer %}
         
-    {% endblock %}
+    {% endblock footer %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 

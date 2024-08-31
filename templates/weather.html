@@ -1,0 +1,9 @@
+{% extends '_base.html' %}
+{% block footer %}
+
+<form action="" method="post">
+ <h2>Temperature:{{all_weather.get("temp")}}f°</h2>
+ <h2>Pressure:{{all_weather.get("pressure")}}°</h2>
+ <h2>Humidity:{{all_weather.get("humidity")}}%</h2>
+</form>
+{% endblock footer %}
